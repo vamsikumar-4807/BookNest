@@ -1,0 +1,79 @@
+/* PAGE BACKGROUND */
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #f4f6f9;
+}
+
+/* HEADING */
+h2 {
+  text-align: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+/* TABLE CONTAINER */
+.table-container {
+  width: 85%;
+  margin: 40px auto;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* HEADER */
+thead {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+th {
+  padding: 14px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* BODY */
+tbody {
+  background: #1f2a38;
+  color: #ffffff;
+}
+
+td {
+  padding: 14px;
+  text-align: center;
+  border-top: 1px solid #2f3e52;
+}
+
+/* VIEW BUTTON */
+.view-btn {
+  background: #3b82f6;
+  border: none;
+  padding: 6px 14px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.view-btn:hover {
+  background: #2563eb;
+}
+
+/* ICONS (EDIT / DELETE) */
+.action-icons {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* NAVBAR SPACING FIX */
+.admin-navbar + * {
+  margin-top: 30px;
+}

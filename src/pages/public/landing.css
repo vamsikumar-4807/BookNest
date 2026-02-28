@@ -1,0 +1,44 @@
+.title {
+  text-align: center;
+  margin: 25px 0;
+  font-size: 32px;
+  color: #444;
+  font-weight: 600;
+}
+
+/* ROW */
+
+.books {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+/* CARD */
+
+.card {
+  background: #f3f3f3;
+  width: 220px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* IMAGE */
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+/* TEXT */
+
+.card p {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}

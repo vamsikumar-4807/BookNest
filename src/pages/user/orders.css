@@ -1,0 +1,27 @@
+.orders-container {
+  padding: 30px;
+}
+
+.order-card {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+.order-card img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.order-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+}

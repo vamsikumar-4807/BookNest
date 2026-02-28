@@ -1,0 +1,52 @@
+.title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.books-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.book-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  width: 260px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.book-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.wishlist-btn {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.view-btn {
+  background: purple;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}

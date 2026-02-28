@@ -1,0 +1,23 @@
+.admin-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #1a00ff, #4b2cff);
+  color: white;
+  padding: 12px 40px;
+}
+
+.admin-logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.admin-nav-links span {
+  margin-left: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.admin-nav-links span:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.orders-container {
+  width: 95%;
+  margin: auto;
+}
+
+.order-row {
+  display: grid;
+  grid-template-columns: 80px repeat(8, 1fr);
+  align-items: center;
+  background: #fff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  gap: 10px;
+}
+
+.order-row img {
+  width: 60px;
+  height: 80px;
+  object-fit: cover;
+}
